@@ -8,13 +8,12 @@ const Nav = () => {
                 <span className='plogo'>Logo</span>{ /*replace it with image */}
             </div>
             <div className='nav-right dflex'>
-                <button className='btn-auth mr'>
+                <button className='btn-auth dbrw mr'>
                     Login
                 </button>
-                <button className='btn-auth '>
+                <button className='btn-auth dbrwb'>
                     Register
                 </button>
-                <img src='/vector.svg' alt="shooping cart"/>
             </div>
         </div>
       </>
