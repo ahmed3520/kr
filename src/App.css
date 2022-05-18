@@ -253,7 +253,6 @@ color: #2B3674;
 margin-bottom: 17px;
 }
 .a-desc >p{
-  width: 224px;
 height: 39px;
 font-family: 'DM Sans';
 font-style: normal;
@@ -307,7 +306,6 @@ color: #000000;
   margin-top: 110px;
 }
 .au-name{
-  width: 66px;
 height: 20px;
 }
 .au-btn{
