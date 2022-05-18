@@ -6,7 +6,7 @@ import {
   Route,
  } from "react-router-dom";
 
- import {Landing, Signin,Signup} from './pages/index';
+ import {Landing, Signin,Signup, Dashboard,Lesson,Classes} from './pages/index';
 function App() {
   return (
   <>
@@ -15,6 +15,10 @@ function App() {
     <Route path='/' element={<Landing/>}/>
     <Route path='/signin' element={<Signin/>}/>
     <Route path='/signup' element={<Signup/>}/>
+    <Route path='/dashboard' element={<Dashboard/>}/>
+    <Route path='/schedulelessons' element={<Lesson/>}/>
+    <Route path='/myclasses' element={<Classes/>}/>
+
   </Routes>
   </BrowserRouter>
   </>

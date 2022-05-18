@@ -1,4 +1,7 @@
 import Landing from "./Landing";
 import Signin from "./Signin";
 import Signup from './Signup'
-export{Landing, Signin, Signup}
+import Dashboard from "./Dashboard";
+import Classes from "./Classes";
+import Lesson from "./Lesson";
+export{Landing, Signin, Signup, Dashboard, Classes, Lesson}
