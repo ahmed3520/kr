@@ -32,6 +32,9 @@ right: 0;
 .faround{
   justify-content: space-around;
 }
+.fwrap{
+  flex-wrap: wrap;
+}
 .fcol{
   flex-direction: column;
 }
@@ -593,4 +596,369 @@ line-height: 28px;
   right: 0;
   margin-top: 29px;
   margin-right: 17.01px;
+}
+.les-bkg{
+  margin-left: 28px;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+}
+.les-name{
+  margin-left: 16px;
+}
+.le-name{
+
+
+/* Body Text/ Medium/ Bold */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 28px;
+
+/* identical to box height, or 175% */
+letter-spacing: -0.02em;
+
+/* Secondary/Dark Grey/900 */
+color: #1B2559;
+}
+.le-id{
+
+/* Body Text/ Extra-Small/ Medium */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+
+/* identical to box height, or 167% */
+letter-spacing: -0.02em;
+
+/* Secondary/Grey/600 */
+color: #A3AED0;
+}
+.les-right{
+  margin-right: 37px;
+}
+.le-earn{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+
+/* or 150% */
+text-align: right;
+letter-spacing: -0.02em;
+color: #30E0AB;
+}
+.top-lessons{
+width: 536px;
+height: 345px;
+
+
+/* Secondary/ Primary White */
+background: #FFFFFF;
+border-radius: 20px;
+}
+.t-sp{
+  margin-left: 28px;
+  margin-top: 19px;
+  margin-bottom: 21px;
+/* Body Text/ Extra-Large/ Bold */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 32px;
+
+/* identical to box height, or 160% */
+letter-spacing: -0.02em;
+
+/* Secondary/Dark Grey/900 */
+color: #1B2559;
+}
+.f-les{
+  margin-bottom: 28px;
+}
+.red{
+  cursor: pointer;
+  background-color: transparent;
+  color: #30E0AB;
+  border: none;
+  outline: none;
+  justify-content: end;
+  margin-right: 28px;
+}
+.red>img{
+  margin-left: 8px;
+}
+.li-sp{
+  font-size: 34px !important;
+  line-height: 42px !important;
+margin-bottom: 27px;
+/* identical to box height, or 124% */
+letter-spacing: -0.02em !important;
+}
+.li-name{
+
+
+
+/* Body Text/ Medium/ Bold */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 28px;
+
+/* identical to box height, or 175% */
+letter-spacing: -0.02em;
+
+/* Secondary/Dark Grey/900 */
+color: #1B2559;
+}
+.li-date{
+
+
+/* Body Text/ Extra-Small/ Medium */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+
+/* identical to box height, or 167% */
+letter-spacing: -0.02em;
+
+/* Secondary/Grey/600 */
+color: #A3AED0;
+
+
+}
+.li-con{
+  margin-left: 10px;
+}
+.li-border{
+  margin-left: 28px;
+width: 4px;
+height: 41px;
+background: #30E0AB;
+border-radius: 16px;
+}
+.live-cont{
+  width: 100%;
+  margin-bottom: 21px;
+}
+.ear-es{
+width: 711px;
+height: 345px;
+
+
+/* Secondary/ Primary White */
+background: #FFFFFF;
+border-radius: 20px;
+}
+.t-earning{
+
+/* Body Text/ Small/ Medium */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+
+/* or 171% */
+letter-spacing: -0.02em;
+
+color: #30E0AB;
+}
+.state-icon{
+  width: 33px;
+height: 33px;
+background: #F4F7FE;
+border-radius: 7px;
+}
+.ear-cont{
+  margin-left: 31.3px;
+  margin-right: 31.3px;
+  margin-top: 28.3px;
+}
+.mrt-20{
+  margin-top: 20px;
+}
+.mrt-15{
+  margin-top: 15px;
+}
+.mrt-30{
+  margin-top: 30px;
+}
+.t-cash{
+
+
+/* Display Text/Small/ Bold */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 42px;
+
+/* identical to box height, or 124% */
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
+
+/* Secondary/Dark Grey/900 */
+color: #1B2559;
+}
+.dashed{
+  border-top: 1px dashed #30E0AB;
+  width: 98%;
+}
+.dashed-num{
+
+
+/* Body Text/ Extra-Small/ Medium */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+
+/* or 167% */
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
+
+color: #30E0AB;
+margin-left: 5px;
+}
+.seprated{
+  margin-top: 32px;
+}
+.candle{
+/* Secondary/Grey/400 */
+background: #E9EDF7;
+border-radius: 8px;
+width: 34.52px;
+margin-right:20.7px ;
+margin-left:20.7px ;
+margin-top: auto;
+}
+.can-mo{
+/* Body Text/ Extra-Small/ Medium */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+
+/* or 167% */
+text-align: center;
+letter-spacing: -0.02em;
+
+/* Secondary/Grey/600 */
+color: #A3AED0;
+}
+.candle-p{
+  height: 100%;
+  margin-left: 31.3px;
+  margin-right: 31.3px;
+}
+.frst{
+  margin-left: 0px;
+}
+.candle-act{
+  background: #30E0AB;
+}
+.notification{
+width: 350px;
+height: 345px;
+/* Secondary/ Primary White */
+background: #FFFFFF;
+border-radius: 20px;
+}
+.not-title{
+
+
+/* Body Text/ Extra-Large/ Bold */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 32px;
+
+/* identical to box height, or 160% */
+letter-spacing: -0.02em;
+
+/* Secondary/Dark Grey/900 */
+color: #1B2559;
+}
+.not-cont{
+  margin-left: 28px;
+  margin-top: 19px;
+}
+.noti-det{
+  margin-top: 18px;
+}
+.noti-det>span{
+  margin-bottom: 8px;  
+  /* Body Text/ Extra-Small/ Medium */
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  
+  /* identical to box height, or 167% */
+  letter-spacing: -0.02em;
+  
+  /* Secondary/Grey/600 */
+  color: #A3AED0;
+}
+.not-img{
+  border-radius: 50%;
+  max-width: 42px;
+  max-height: 42px;
+  margin-right: 11px;
+}
+.not-desc{
+
+/* Body Text/ Small/ Bold */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+
+/* identical to box height, or 171% */
+letter-spacing: -0.02em;
+
+/* Secondary/Dark Grey/900 */
+color: #1B2559 !important;
+
+
+}
+.not-date{
+
+
+/* Body Text/ Extra-Small/ Medium */
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+
+/* identical to box height, or 167% */
+letter-spacing: -0.02em;
+
+/* Secondary/Grey/600 */
+color: #A3AED0;
+}
+.noti-v{
+  width: 100%;
+  margin-top: 36px;
+}
+.not-v>img{
+  margin-right: 30px !;
+
 }
