@@ -462,7 +462,6 @@ color: #2B3674;
   margin-left: 26.5px;
 }
 .pay-name{
-width: 108px;
 /* Body Text/ Medium/ Bold */
 font-family: 'DM Sans';
 font-style: normal;
@@ -871,7 +870,7 @@ color: #A3AED0;
   background: #30E0AB;
 }
 .notification{
-width: 350px;
+width: 400px;
 height: 345px;
 /* Secondary/ Primary White */
 background: #FFFFFF;
@@ -958,7 +957,7 @@ color: #A3AED0;
   width: 100%;
   margin-top: 36px;
 }
-.not-v>img{
+.noti-v>img{
   margin-right: 30px !;
 
 }
