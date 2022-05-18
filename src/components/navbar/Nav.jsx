@@ -1,6 +1,11 @@
 import React from 'react'
+import { useNavigate } from "react-router-dom";
 
 const Nav = () => {
+    let navigate = useNavigate();
+    function navigateUser(path){
+    navigate(`/${path}`);
+    }
   return (
       <>
         <div className='dflex djspacebetween nav'>
@@ -8,10 +13,10 @@ const Nav = () => {
                 <span className='plogo'>Logo</span>{ /*replace it with image */}
             </div>
             <div className='nav-right dflex'>
-                <button className='btn-auth dbrw mr'>
+                <button className='btn-auth dbrw mr' onClick={()=>navigateUser('signin')}>
                     Login
                 </button>
-                <button className='btn-auth dbrwb'>
+                <button className='btn-auth dbrwb'onClick={()=>navigateUser('signup')}>
                     Register
                 </button>
             </div>

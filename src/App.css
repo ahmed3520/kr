@@ -30,6 +30,9 @@ right: 0;
 .fcol{
   flex-direction: column;
 }
+.falcenter{
+  align-items: center;
+}
 .plogo{
   font-family: Lato;
 font-style:Regular;
@@ -201,4 +204,131 @@ cursor: pointer;
   padding: 26px 30.4px 26px 30.4px;
       display: flex;
     justify-content: center;
+}
+.a{
+  text-decoration: none;
+}
+.i-icon{
+  position: absolute;
+}
+.au-input{
+  width: 427px;
+height: 48px;
+background: #FFFFFF;
+border: 1px solid #BDBDBD;
+border-radius: 10px;
+
+}
+.im-auth{
+  margin-top: 6rem;
+}
+.au-input > input{
+  border: none;
+  width: 90%;
+  margin-left: 10%;
+  border-radius: 10px;
+  outline: none;
+}
+.au-input >img{
+  margin-left: 1%;
+}
+.au-input >.s-icon{
+  margin-right: 3%;
+
+}
+.a-desc{
+  width: 183px;
+height: 76px;
+margin-bottom: 70px;
+}
+.a-desc >h5{
+  width: 95px;
+height: 39px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 39px;
+color: #2B3674;
+margin-bottom: 17px;
+}
+.a-desc >p{
+  width: 224px;
+height: 39px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 39px;
+color: #2B3674;
+}
+.a-desc >span{
+  width: 183px;
+  height: 20px;
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+color: #000000;
+}
+.a-desc >span>a{
+  font-family: Inter;
+  color: rgb(16, 29, 100);
+  text-decoration: none;
+  margin-left: 0.2rem;
+
+}
+.mr-68{
+  margin-top: 55px;
+}
+.mr-36{
+  margin-top: 36px;
+}
+.mrt-23{
+  margin-top: 23px;
+}
+.in-text{
+  width: 37px;
+  height: 20px;
+  margin-bottom: 12px;
+  margin-left: 0.3rem;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.4);
+}
+.mrt-110{
+  margin-top: 110px;
+}
+.au-name{
+  width: 66px;
+height: 20px;
+}
+.au-btn{
+  width: 427px;
+height: 60px;
+border: none;
+cursor: pointer;
+color: white;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+}
+.bkg-cy{
+  background: #30E0AB;
+}
+.br-10{
+  border-radius: 10px;
+}
+.im-s{
+  width: 308px;
+margin-top: 3rem;
 }

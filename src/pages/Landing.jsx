@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from '../components/navbar/Nav'
-const Con1 = () => {
+const Landing = () => {
   return (
     <>
     <Nav/>
@@ -52,4 +52,4 @@ const Con1 = () => {
   )
 }
 
-export default Con1
+export default Landing

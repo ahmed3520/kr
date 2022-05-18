@@ -1,10 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-import Con1 from './pages/Con1';
+import { 
+  BrowserRouter,
+  Routes,
+  Route,
+ } from "react-router-dom";
+
+ import {Landing, Signin,Signup} from './pages/index';
 function App() {
   return (
   <>
-  <Con1/>
+  <BrowserRouter>
+  <Routes>
+    <Route path='/' element={<Landing/>}/>
+    <Route path='/signin' element={<Signin/>}/>
+    <Route path='/signup' element={<Signup/>}/>
+  </Routes>
+  </BrowserRouter>
   </>
   );
 }
