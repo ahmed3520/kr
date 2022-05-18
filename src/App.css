@@ -220,6 +220,7 @@ cursor: pointer;
   position: absolute;
 }
 .au-input{
+
   width: 427px;
 height: 48px;
 background: #FFFFFF;
@@ -231,6 +232,9 @@ border-radius: 10px;
   margin-top: 6rem;
 }
 .au-input > input{
+
+  padding-left: 0.3rem;
+
   border: none;
   width: 90%;
   margin-left: 10%;

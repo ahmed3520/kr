@@ -1,0 +1,58 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (max-width: 828px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+    .nav-left {
+        margin-top: 35px;
+        margin-left: 30px;
+    }
+    .im-auth {
+        display: none;
+    }
+    .au-input > input{
+        font-size: 16px;
+    }
+    .mr {
+        margin-right: 40px;
+    }
+}
+@media (max-width:445px) {
+    .mr{
+        margin-right: 10px;
+        margin-left: 15px;
+    }
+    .faround{
+        width: 100%;
+    }
+    .nav-right{
+        margin-left: 10px;
+    }
+    .btn-auth {
+        width: 7rem;
+        display: flex;
+        justify-content: center;
+    }
+    .au-input{
+        width: 350px;
+    }
+    .au-btn{
+        width: 350px;
+    }
+}
+@media (max-width:393px) {
+.faround {
+justify-content:center;
+}
+.nav-left{
+    margin-left: 10px;
+}
+}
+@media (max-width:280px){
+    .faround {
+        justify-content: flex-start;
+        margin-left: 10px;
+    }
+}

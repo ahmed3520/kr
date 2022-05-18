@@ -13,7 +13,7 @@ const Signin = () => {
         <div className='im-auth im-s'>
             <img src="/signperson.png" alt="person" />
         </div>
-        <div className='auth-r'>
+        <div className='auth-r dflex fcol'>
             <div className='a-desc'>
             <h5>Sign In</h5>
             <span>Or create an account
