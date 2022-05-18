@@ -3,10 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-@media (max-width:280px){
+@media screen and (max-width:290px){
     .faround {
         justify-content: flex-start;
         margin-left: 10px;
+    }
+    .au-input{
+        width: 250px !important;
+    }
+    .au-btn{
+        width: 250px !important;
     }
 }
 @media (max-width:393px) {
@@ -15,6 +21,25 @@
     }
     .nav-left{
         margin-left: 10px;
+    }
+    .au-input{
+        width: 300px ;
+    }
+    .au-btn{
+        width: 300px ;
+    }
+    .plogo{
+        font-size: 20px;
+    }
+    .nav-left{
+        margin-left: 5px !important;
+    }
+    .nav-right{
+        max-width: 240px ;
+    }
+    .btn-auth{
+        margin-right: 5px !important;
+    width: 6rem !important;
     }
     }
     @media  (max-width:445px) {
