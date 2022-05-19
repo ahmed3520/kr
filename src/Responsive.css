@@ -1,6 +1,6 @@
 
 
-@media (max-width:1543px){
+@media (max-width:1570px){
     .d-left{
         width: 200px;
         align-items: center;
@@ -9,17 +9,47 @@
         display: none;
     }
     .umid-ch{
-        width: max-content;
+        width: 100%;
+        justify-content: center;
     }
+    .up-cont{
+        padding-bottom: 0px !important;
+    }
+    .up {
+       border: none;
+    }
+    
     .up-ic{
         margin-right: 10px;
     }
     .up-name >span{
         margin-right: 10px;
     }
+    .umid-cont{
+        width: 95%;
+        padding-left: 5px !important;
+    }
+    .len-header {
+        height: 130px;
+    }
 }
 @media (max-width:1382px){
-
+    .d-left{
+        position: fixed;
+        height: 100%;
+        }
+         
+    .len-header >h4,.len-details, .len-detail {
+        margin-left: 6.5rem;
+    }
+    .lesson-cont, .comp-cont {
+        max-width: 100%;
+        max-height: 100%; 
+        justify-content: center;
+    }
+    .com-titl{
+        margin-left: 6rem;
+    }
     .up-name{
         display: none;
     }
@@ -37,6 +67,9 @@
     }
 }
 @media (max-width:1100px){
+    .lesson-card, .complete-card{
+        max-width: 50%;
+    }
     .d-left{
         width: 100px !important;
     }
@@ -58,6 +91,15 @@
     .les-time{
         width: 100%;
     }
+    .com-titl{
+        margin-left: 0rem;
+    }
+    .len-header {
+        height: 100px;
+    }
+    .len-header > h4{
+        margin-top: 1rem;
+    }
 }
 @media  (max-width: 850px) {
     /* CSS that should be displayed if width is equal to or less than 800px goes here */
@@ -74,10 +116,10 @@
     .mr {
         margin-right: 40px;
     }
-    .d-left{
-    position: fixed;
-    height: 100%;
+    .lesson-card, .complete-card{
+        max-width: 650px;
     }
+
     .len-header >h4,.len-details, .len-detail {
         margin-left: 6.5rem;
     }
@@ -130,6 +172,9 @@
     }
 }
 @media (max-width: 700px) {
+    .lesson-card,.lesson-img {
+        max-height: 200px;
+    }
     .focl{
         flex-direction: column;
         align-items: center;
@@ -150,6 +195,17 @@
     }
 }
 @media  (max-width:459px) {
+    .comp-d{
+        flex-direction: column;
+
+    }
+    .complete-date{
+        width: 100% !important;
+        margin-bottom: 0% !important;
+    }
+    .comp-cont > *:last-child{
+        margin-bottom: 5rem;
+    } 
     .mr{
         margin-right: 10px;
         margin-left: 15px;
@@ -286,8 +342,7 @@
         margin-right: 5px !important;
     width: 6rem !important;
     }
-    }
-
+}
  @media screen and (max-width:290px){
     .faround {
         justify-content: flex-start;

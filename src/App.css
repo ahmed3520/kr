@@ -1188,3 +1188,131 @@ letter-spacing: -0.02em;
 
 color: #858585;
 }
+.lesson-card{
+  max-width: 475px;;
+  max-height: 168px;
+}
+.card-det{
+  width: 100%;
+  height: 100%;
+background: #FFFFFF;
+border-radius: 10px;
+}
+.complete-card{
+  width: 100%;
+  max-width: 475px;
+  max-height: 84px;
+}
+.comp-det{
+background: #FFFFFF;
+border-radius: 10px;
+width: 100%;
+height: 100%;
+}
+.lesson-img{
+  max-width:160px;
+  max-height: 168px;
+  border-radius: 10px;
+}
+.card-title{
+
+max-width: 266px;
+max-height: 30px;
+
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 42px;
+letter-spacing: -0.02em;
+}
+
+.card-date{
+max-width: 99px;
+max-height: 15px;
+
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 14px;
+
+/* identical to box height, or 145% */
+letter-spacing: -0.02em;
+
+color: #858585;
+}
+.mr-12p{
+  margin-left: 12px;
+}
+.card-desc{
+
+max-width: 286px;
+max-height: 27px;
+
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+/* or 145% */
+letter-spacing: -0.02em;
+
+color: #858585;
+}
+.mrb22{
+margin-bottom: 22px;
+}
+.btn-grp{
+  justify-content: flex-end;
+  margin-right: 17px;
+  margin-bottom: 15px;
+}
+.btn-grp > button{
+  box-sizing: border-box;
+  width: 58px;
+  height: 28px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.edit{
+
+background: #FFFFFF;
+border: 1px solid #C4C4C4;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 28px;
+
+/* identical to box height, or 280% */
+letter-spacing: -0.02em;
+
+color: #30E0AB;
+}
+.share{
+
+background: #30E0AB;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 28px;
+
+/* identical to box height, or 280% */
+letter-spacing: -0.02em;
+border: none;
+color: #FFFFFF;
+margin-left:20px;
+}
+.lesson-cont, .comp-cont{
+  max-width: 1110px;
+  max-height: 360px;
+}
+.flx-5{
+  flex-wrap: wrap;
+  flex: 0 0 50%;
+}
