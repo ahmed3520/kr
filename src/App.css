@@ -1316,3 +1316,146 @@ margin-left:20px;
   flex-wrap: wrap;
   flex: 0 0 50%;
 }
+.l-live{
+  max-height: 52px;
+  margin-top: 33px;
+}
+.l-title{
+max-width: 342px;
+max-height: 90px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 45px;
+color: #2B3674;
+}
+.re-data{
+
+  max-width: 240px;
+  max-height: 20px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+  letter-spacing: -0.02em;
+  color: #2B3674;
+  
+}
+.re-sp{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 4px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+}
+.l-cat{
+  margin-bottom: 18px;
+}
+.pr-cont{
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 82px;
+}
+.mrr-10{
+  margin-right: 10px;
+}
+.st-reg{
+  color: rgba(27, 37, 89, 0.8);
+  font-weight: 400;
+font-size: 16px;  
+}
+.res-submit{
+  margin-top: 35px;
+  background: #30E0AB;
+  border-radius: 10px;
+  max-width: 300px;
+  max-height: 45px;
+  height: 45px;
+  color: white;
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 28px;
+
+/* identical to box height, or 175% */
+letter-spacing: -0.02em;
+border: none;
+outline: none;
+}
+.learn-cont{
+  margin-left: 37px;
+max-width: 480px;
+
+}
+.lesson-banner>img{
+
+box-sizing: border-box;
+
+max-width: 480px;
+max-height: 270px;
+border: 1px solid rgba(0, 0, 0, 0.3);
+border-radius: 4px;
+}
+.class-cont{
+max-width: 354px;
+background: #FDFDFD;
+border-radius: 34px;
+height: 501px;
+
+}
+.cls-sp{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 42px;
+
+}
+.sub-cont{
+  padding-top:24px ;
+  padding-left: 25px;
+  padding-right: 70px;
+}
+.mrb30{
+  margin-bottom: 30px;
+}
+.scehdule-date{
+margin-bottom: 5px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+}
+.scehdule-title{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: -0.02em;
+color: #363636;
+}
+.fds500{
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+/* or 125% */
+text-align: center;
+letter-spacing: -0.02em;
+color: #363636;
+}
+.learn-li{
+  text-align: inherit;
+margin-top: 18px;
+}
+.wt-learn{
+  
+}

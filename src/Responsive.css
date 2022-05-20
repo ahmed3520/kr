@@ -32,13 +32,23 @@
     .len-header {
         height: 130px;
     }
+
 }
 @media (max-width:1382px){
     .d-left{
         position: fixed;
         height: 100%;
         }
-         
+        .pr-cont {
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+        .l-reserve{
+            width: 30%;
+        }
+        .learn-cont{
+            margin-left: 0;
+        }
     .len-header >h4,.len-details, .len-detail {
         margin-left: 6.5rem;
     }
@@ -65,8 +75,19 @@
     .les-input{
         padding-left: 0.5rem ;
     }
+    .class-cont{
+        margin-left: 15px;
+        height: 80%;
+    }
+    .sub-cont{
+        padding-right: 20px;
+    }
 }
 @media (max-width:1100px){
+    .pr-cont {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .lesson-card, .complete-card{
         max-width: 50%;
     }
@@ -101,7 +122,16 @@
         margin-top: 1rem;
     }
 }
+@media  (max-width: 920px) {
+    .class-cont{
+       display: none; 
+    }
+}
 @media  (max-width: 850px) {
+    .l-title{
+        max-height: inherit;
+        font-size: 30px;
+    }
     /* CSS that should be displayed if width is equal to or less than 800px goes here */
     .nav-left {
         margin-top: 35px;
@@ -172,6 +202,17 @@
     }
 }
 @media (max-width: 700px) {
+    .l-reserve{
+        width: 100%;
+    }
+    .pr-cont{
+        flex-direction: column-reverse;
+        padding: 0 4rem;
+    }
+    .res-submit{
+        width: 100%;
+        max-width: 100%;
+    }
     .lesson-card,.lesson-img {
         max-height: 200px;
     }
@@ -195,6 +236,26 @@
     }
 }
 @media  (max-width:459px) {
+    .pr-cont{
+        padding: 0;
+        margin-left:0px ;
+        margin-right: 0px;
+    }
+    .learn-cont{
+        margin: 0 10px;
+        order: 1;
+    }
+    .l-reserve{
+        width: 90%;
+        margin: 0 10px;
+    }
+    .class-cont  {
+        display: flex;
+        margin-left: 15px;
+        height: 80%;
+        margin-bottom: 10px;
+        align-items: center;
+    }
     .comp-d{
         flex-direction: column;
 
@@ -365,3 +426,4 @@
     }
 
 }
+
