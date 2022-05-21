@@ -8,7 +8,7 @@ import {
   Route,
  } from "react-router-dom";
 
- import {Landing, Signin,Signup, Dashboard,Lesson,Classes, Product} from './pages/index';
+ import {Landing, Signin,Signup, Dashboard,Lesson,Classes, Product, Payment} from './pages/index';
 function App() {
   return (
   <>
@@ -21,6 +21,7 @@ function App() {
     <Route path='/schedulelessons' element={<Lesson/>}/>
     <Route path='/myclasses' element={<Classes/>}/>
     <Route path='/lesson' element={<Product/>}/>
+    <Route path='/payment' element={<Payment/>}/>
 
   </Routes>
   </BrowserRouter>

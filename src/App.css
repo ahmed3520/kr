@@ -1392,7 +1392,7 @@ outline: none;
 max-width: 480px;
 
 }
-.lesson-banner>img{
+.lesson-img-banner{
 
 box-sizing: border-box;
 
@@ -1458,4 +1458,174 @@ margin-top: 18px;
 }
 .wt-learn{
   
+}
+.br-none{
+  border-bottom: 2px solid #E2E2E2;
+}
+.payment-form  input{
+  width: 100%;
+  border: none;
+  background-color: inherit;
+  outline: none;
+  min-height: 31px;
+  font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+color: #A4A4A4;
+
+
+}
+.pfs{
+  text-transform: uppercase;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+/* Text/Title */
+color: #303030;
+}
+.pselect{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("/public/select-arrow.png");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 5px;
+}
+.pselect::after{
+  content: '\f078';
+  font: normal normal normal 17px/1 FontAwesome;
+  background: #A3A3A3;
+}
+.payment-cont{
+  margin-left: 53px;
+  margin-right: 147px;
+  margin-top: 70px;
+}
+.payment-form{
+  margin-left: 100px;
+  max-width: 750px;
+  width: 80%;
+}
+.payment-in{
+  border-bottom: 2px solid #E2E2E2;
+}
+.payment-header{
+  margin-bottom: 53px;
+
+}
+.payment-pr{
+  margin-top: 36px;
+}
+.pay-header{
+  font-weight: 400;
+font-size: 48px;
+line-height: 62px;
+}
+.mrt-72{
+margin-top: 72px;
+}
+.payment-drp{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid #E2E2E2;
+  max-width: 200px;
+}
+.pselect{
+  border: none;
+    /* width: 124px; */
+    /* height: 31px; */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #A4A4A4;
+    outline: none ;
+}
+.card-details{
+  width: 100%;
+}
+.p-card-det{
+  width: 80%;
+}
+.in-csv{
+  max-width: 125px;
+  border-bottom:  2px solid #E2E2E2;;
+}
+.cont-checkbox{
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.cont-checkbox input{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+.cont-checkbox:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.cont-checkbox input:checked ~ .checkmark {
+  background-color: #30E0AB;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.cont-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.cont-checkbox .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.card-checkbox{
+  margin-top: 45px;
+}
+.payment-submit{
+  max-width: 201px;
+  height: 60px;
+  border:none;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 100px;
 }

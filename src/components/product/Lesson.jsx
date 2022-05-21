@@ -4,7 +4,7 @@ const Lesson = ({img,desc, learn}) => {
   return (
     <div className='dflex fcol learn-cont'>
         <div className='dflex fcol lesson-banner'>
-            <img src={'/'+img} alt={desc}/>
+            <img src={'/'+img} className='lesson-img-banner' alt={desc}/>
             <p className='lesson-desc fds500'>
                 {desc}
             </p>

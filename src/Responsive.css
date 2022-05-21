@@ -35,6 +35,9 @@
 
 }
 @media (max-width:1382px){
+   .pselect{
+       font-size: 16px;
+   }
     .d-left{
         position: fixed;
         height: 100%;
@@ -84,6 +87,28 @@
     }
 }
 @media (max-width:1100px){
+    .payment-submit{
+        margin-top: 60px;
+    }
+    .cont-checkbox{
+        font-size: 16px;
+    }
+    .p-card-det{
+        width: 100%;
+        margin-right: 10px;
+    }
+    .s-wrapper{
+        max-width: 100% !important;
+    }
+    .pay-header{
+        font-size: 30px;
+    }
+    .payment-form,.payment-cont{
+        margin-left: 50px;
+    }
+    .payment-left{
+        width: 50%;
+    }
     .pr-cont {
         margin-left: 20px;
         margin-right: 20px;
@@ -128,6 +153,12 @@
     }
 }
 @media  (max-width: 850px) {
+    .payment-cont{
+        margin-right: 40px;
+    }
+    .payment-form{
+        margin-left: 20px;
+    }
     .l-title{
         max-height: inherit;
         font-size: 30px;
@@ -202,8 +233,27 @@
     }
 }
 @media (max-width: 700px) {
+    .payment-cont{
+        flex-direction: column;
+    }
     .l-reserve{
         width: 100%;
+    }
+    .payment-form{
+        margin-left: 0;
+    }
+    .payment-left{
+        width: 100%;
+    }
+    .payment-form{
+        width: 100%;
+    }
+    .card-details{
+        flex-direction: column;
+    }
+    .br-none{
+        width: 30%;
+        margin-top: 15px;
     }
     .pr-cont{
         flex-direction: column-reverse;
@@ -236,6 +286,14 @@
     }
 }
 @media  (max-width:459px) {
+    .payment-cont{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .payment-submit{
+        margin-top: 30px;
+        height: 50px;
+    }
     .pr-cont{
         padding: 0;
         margin-left:0px ;

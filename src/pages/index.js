@@ -5,4 +5,5 @@ import Dashboard from "./Dashboard";
 import Classes from "./Classes";
 import Lesson from "./Lesson";
 import Product from "./Product";
-export{Landing, Signin, Signup, Dashboard, Classes, Lesson, Product}
+import Payment from "./Payment";
+export{Landing, Signin, Signup, Dashboard, Classes, Lesson, Product, Payment}
