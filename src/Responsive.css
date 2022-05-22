@@ -449,7 +449,7 @@
         margin: 2px;
     }
     .dash-cont{
-        width: 94%;
+        width: 92%;
         margin: 10px;
     } 
     .state-wrapper {
@@ -463,6 +463,9 @@
       }
       .notification{
           margin-bottom: 50px;
+      }
+      .state-wrapper{
+          margin-bottom: 5px;
       }
       .li-sp{
           font-size: 20px;
