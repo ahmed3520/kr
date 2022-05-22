@@ -452,6 +452,12 @@
         width: 92%;
         margin: 10px;
     } 
+    .pay-name{
+        margin-left: 5px;
+    }
+    .da-left > span{
+        font-size: 18px;
+    }
     .state-wrapper {
         width: 46%;
       }
