@@ -442,10 +442,45 @@
     }
 }
 @media  (max-width:459px) {
+    .pay, .cam {
+        width: 110px;
+    }
+    .pay-img ,.cam-img{
+        margin: 2px;
+    }
     .dash-cont{
-        width: auto;
+        width: 94%;
         margin: 10px;
     } 
+    .state-wrapper {
+        width: 46%;
+      }
+      .st{
+          flex-wrap: wrap;
+      }
+      .ear-es{
+          margin-bottom: 30px;
+      }
+      .notification{
+          margin-bottom: 50px;
+      }
+      .li-sp{
+          font-size: 20px;
+      }
+      .les-right{
+          margin-right: 10px;
+      }
+    .dcont{
+        width: 100%;
+    }
+    .candle{
+        width: 30px;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+    .pay-name, .cam-name > span{
+        font-size: 12px;
+    }
     .cont .left{
         width: 100%;
     }

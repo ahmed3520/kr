@@ -39,7 +39,7 @@ const Dashboard = () => {
            </div>
          </div>
        </div>
-       <div className='dflex djspacebetween mrt-30'>
+       <div className='dflex djspacebetween st mrt-30'>
          <State/>
        </div>
        <div className='dflex mrt-15'>
