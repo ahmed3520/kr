@@ -115,7 +115,7 @@ const Lesson = () => {
          </div>
          </div>
 
-         <div className='dflex btns-les'>
+         <div className='dflex mrt-15 btns-les'>
          <button className='cancel-btn'>Cancel</button>
 
            <button className='bkg-cy' onClick={()=>setNext(!nextButton)}>Next</button>

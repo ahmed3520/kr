@@ -15,6 +15,7 @@ const DashNav = () => {
   return (
     <div className='dflex l-nav'>
         <div className='d-left dflex fcol'>
+          <div className='hp-cont d-left' style={{position:'relative'}}>
             <div className='dflex up fcenter'>
                 <div className='up-cont dflex'>
                 <div className='up-left dflex'>
@@ -82,6 +83,13 @@ const DashNav = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            </div>
+            <div className='lg-out dflex d-left' style={{position:'relative', height:'10%'}}>
+                <div className='dflex im-c'>
+                <img className='lg-img' src='/lg-out.png' alt="log out"/>
+                </div>
+                <span className='lg-span up-name'>Log Out</span>
             </div>
         </div>
     </div>

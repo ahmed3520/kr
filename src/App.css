@@ -1629,3 +1629,20 @@ margin-top: 72px;
   cursor: pointer;
   margin-top: 100px;
 }
+
+.lg-span{
+font-weight: 500;
+}
+.hp-cont{
+  height: 90%;
+}
+.lg-out{
+  padding-left: 38px;
+  padding-right: 38px;
+  width: auto !important;
+}
+.lg-img{
+  width: 24px;
+  height: 24px;
+  margin-right: 14px;
+}
