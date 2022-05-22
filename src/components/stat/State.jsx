@@ -21,7 +21,7 @@ const State = () => {
         <div className='st-cash dflex fcenter falcenter'>
             <img src='/subscriptions.png' alt='subscription image'/>
         </div>
-        <div className='dflex fcol'>
+        <div className='dflex ds fcol'>
             <span className='st-name'>
             Upcoming Lessons
             </span>
@@ -34,7 +34,7 @@ const State = () => {
         <div className='st-per dflex fcenter bkg-cy falcenter'>
             <img src='/st-person.png' alt='subscription image'/>
         </div>
-        <div className='dflex fcol'>
+        <div className='dflex ds fcol'>
             <span className='st-name'>
             Total Sudents
             </span>

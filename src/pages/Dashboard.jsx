@@ -45,7 +45,7 @@ const Dashboard = () => {
        <div className='dflex mrt-15'>
          <DashFeed/>
        </div>
-       <div className='dflex mrt-15 djspacebetween'>
+       <div className='dflex mrt-15 da-b djspacebetween'>
          <Earning/>
          <div className='dflex fcol notification'>
            <div className='not-cont dflex fcol'>

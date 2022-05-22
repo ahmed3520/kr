@@ -35,12 +35,32 @@
 
 }
 @media (max-width:1382px){
-   .pselect{
+    .st-name{
+        font-size: 12px;
+    }
+    .ear-es{
+       width: 600px;
+   }
+   .dash-cont{
+       margin-left: 220px;
+   }
+    .pselect{
        font-size: 16px;
+   }
+   .top-lessons{
+       width: 480px;
+   }
+   .state-wrapper{
+       width: 200px;
    }
     .d-left{
         position: fixed;
         height: 100%;
+        }
+        .candle{
+            margin-left: 10px;
+            margin-right: 10px;
+
         }
         .pr-cont {
             margin-left: 40px;
@@ -51,6 +71,13 @@
         }
         .learn-cont{
             margin-left: 0;
+        }
+        .con > h3{
+            font-size: 30px;
+            height: auto;
+        }
+        .con > h5{
+            font-size: 20px;
         }
     .len-header >h4,.len-details, .len-detail {
         margin-left: 6.5rem;
@@ -87,6 +114,23 @@
     }
 }
 @media (max-width:1100px){
+    .dash-cont{
+        margin-left: 110px;
+        margin-right: 10px;
+    }
+    .notification{
+        width: 350px;
+    }
+    .ear-es{
+        max-width: 540px;
+    }
+    .feedres{
+        flex-wrap: nowrap;
+    }
+    .top-lessons {
+        width: 450px;
+    }
+    
     .payment-submit{
         margin-top: 60px;
     }
@@ -108,6 +152,27 @@
     }
     .payment-left{
         width: 50%;
+    }
+    .con > h5{
+        width: 90%;
+        font-size: 20px;
+    }
+    .cont .left{
+        width: 50%;
+    }
+    .con{
+        max-width: 90%;
+    margin-left: 10px;
+    }
+ 
+    .v-line {
+        width: auto;
+        height: 74px;
+        position: absolute;
+        top: 50px;
+        border: 1px solid #BDBDD1;
+        margin-left: 10px;
+        transform: rotate(0deg);
     }
     .pr-cont {
         margin-left: 20px;
@@ -148,15 +213,76 @@
     }
 }
 @media  (max-width: 920px) {
+    
+    .ear-es{
+        width: 500px;
+    }
+    .notification{
+        width: 350px;
+    }
+    .candle{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .da-b{
+        flex-direction: column;
+    }
+    .top-lessons{
+        width: 100%;
+        margin-bottom: 15px;
+    }
     .class-cont{
        display: none; 
     }
+    .feedres{
+        flex-direction: column;
+    }
 }
-@media  (max-width: 850px) {
+@media  (max-width: 860px) {
+    .ear-es, .notification{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 15px;
+    }
+    .state-wrapper{
+        width: 150px;
+    }
+    .im-chart{
+        right: -40px;
+        top: -20px;
+    }
+    .st-num{
+        margin-left: 5px;
+    }
+    .im-graph{
+        margin: 0;
+    }
+    .da-left >span{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .st-cash, .st-per{
+        width: 40px;
+        height: 40px;
+        margin-left: 5px;
+        margin-right: 0px;
+    }
+    .arr-circ{
+        right: -20px;
+    }
+    .v-line{
+        top: 14px !important;
+    }
+    .right >img{
+        width: 430px;
+    }
+    .fback{
+        width: auto;
+    }
     .payment-cont{
         margin-right: 40px;
     }
-    .payment-form{
+    .payment-form ,.desc{
         margin-left: 20px;
     }
     .l-title{
@@ -233,8 +359,38 @@
     }
 }
 @media (max-width: 700px) {
-    .payment-cont{
+   .dcont{
+       width: 110%;
+   }
+   .state-wrapper{
+       width: 130px;
+   }
+    .landing-h3{
+        margin: 0;
+        width: auto !important;
+    }
+    .st-cash, .st-per{
+        display: none;
+    }
+    .st-na, .ds{
         flex-direction: column;
+        margin-left: 10px;
+    }
+    
+    .cont{
+        margin-top: 0px;
+        align-items: center;
+
+    }
+    .con>h5{
+        margin: 0;
+    }
+    .payment-cont, .cont{
+        flex-direction: column;
+    }
+    .cont .left{
+        width: 90%;
+
     }
     .l-reserve{
         width: 100%;
@@ -286,6 +442,27 @@
     }
 }
 @media  (max-width:459px) {
+    .dash-cont{
+        width: auto;
+        margin: 10px;
+    } 
+    .cont .left{
+        width: 100%;
+    }
+
+    .dbrwb{
+        margin-bottom: 15px;
+    }
+    .right{
+        margin-left: 30px;
+    }
+    .f-cont, .right >img{
+        width: 370px;
+    }
+    .desc{
+        width: 360px;
+        margin-left: 16px;
+    }
     .payment-cont{
         margin-left: 10px;
         margin-right: 10px;

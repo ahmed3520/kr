@@ -3,7 +3,7 @@ import Lesson from './Lesson'
 import Live from './Live'
 const DashFeed = () => {
   return (
-    <div className='dflex fwrap' style={{width:'100%', justifyContent:'space-between'}}>
+    <div className='dflex fwrap feedres' style={{width:'100%', justifyContent:'space-between'}}>
         <div className='dflex fcol top-lessons'>
             <span className='t-sp'>
                 Top Lessons
