@@ -442,6 +442,7 @@
     }
 }
 @media  (max-width:459px) {
+    
     .pay, .cam {
         width: 110px;
     }
@@ -501,11 +502,42 @@
         margin-left: 30px;
     }
     .f-cont, .right >img{
-        width: 370px;
+        width: 300px;
     }
     .desc{
-        width: 360px;
+        width: 300px;
         margin-left: 16px;
+    }
+    .desc > span{
+        font-size: 16px;
+        max-width: 90%;
+        display: block;
+    }
+    .faround{
+        margin-top: 30px;
+    }
+    .left{
+        margin-bottom: 50px;
+        max-width: 300px;
+        width: 300px;
+    }
+    .con > h3{
+        font-size: 20px;
+        line-height: 60px;
+    }
+    .con > h5{
+        margin: 0;
+        font-size: 16px;
+        height: auto;
+    }
+    .con{
+    max-width: 100%;
+    margin-left: 10px;
+    width: 100%;
+    }
+    .right
+    {
+        margin: 0;
     }
     .payment-cont{
         margin-left: 10px;

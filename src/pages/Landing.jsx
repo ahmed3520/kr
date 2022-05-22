@@ -7,15 +7,19 @@ const Landing = () => {
     <div className='dflex cont faround' style={{marginTop:'65px'}}>
         <div className='left dflex fcol fcenter'>
             <div className='con'>
+              <div className='all-h con'>
             <h3 className='landing-h3'>
             Make Impact by teaching
             </h3>
             <h5 className='h5'>
             easy booking,easy payment for your scheduled live classes.lets handle all the stress for you while you do your work easily
             </h5>
+            </div>
+            <div className='land-btn'>
             <button className='btn dbrwb'>
                 Get started
             </button>
+            </div>
             </div>
         </div>
         <div className='right'>
