@@ -4,7 +4,7 @@ import Email from '../components/inputs/auth/Email'
 import Password from '../components/inputs/auth/Password'
 import Name from '../components/inputs/auth/Name'
 import Sign from '../components/buttons/auth/Sign'
-import style from './signin.module.css'
+import style from './auth.module.css'
 
 const Signup = () => {
   return (

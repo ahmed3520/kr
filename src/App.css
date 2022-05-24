@@ -13,10 +13,12 @@
   --font_weight400: 400;
   --font_weight500: 500;
   --font_weight800: 800;
+  --font_weight700: 700;
   --border_radius10:10px;
   --border_radius20:20px;
   --font_size18:18px;
-  --font_size18:15px;
+  --font_size16:16px;
+  --font_size15:15px;
   --font_size24:24px;
   --font_size64:64px;
   --center:center;
