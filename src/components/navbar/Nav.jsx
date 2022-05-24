@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom";
-
+import navStyle from './nav.module.css'
 const Nav = () => {
     let navigate = useNavigate();
     function navigateUser(path){
@@ -8,15 +8,15 @@ const Nav = () => {
     }
   return (
       <>
-        <div className='dflex djspacebetween nav'>
-            <div className='nav-left'>
-                <span className='plogo'>Logo</span>{ /*replace it with image */}
+        <div className={navStyle.nav}>
+            <div className={navStyle.nav_left}>
+                <span className={navStyle.plogo}>Logo</span>{ /*replace it with image */}
             </div>
-            <div className='nav-right dflex'>
-                <button className='btn-auth dbrw mr' onClick={()=>navigateUser('signin')}>
+            <div className={navStyle.nav_right}>
+                <button className={navStyle.btn_login} onClick={()=>navigateUser('signin')}>
                     Login
                 </button>
-                <button className='btn-auth dbrwb'onClick={()=>navigateUser('signup')}>
+                <button className={navStyle.btn_reg}onClick={()=>navigateUser('signup')}>
                     Register
                 </button>
             </div>

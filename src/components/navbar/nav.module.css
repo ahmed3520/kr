@@ -1,0 +1,63 @@
+:root{
+    --white_grean:#30E0AB;
+    --white: #FFFFFF;
+    --dflex: flex;
+    --cursor_pointer: pointer;
+    --font_weight400: 400px;
+    --border_radius10:10px;
+    --font_size18:18px;
+}
+.nav{
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: var(--dflex);
+    justify-content: space-between;
+}
+.nav_left{
+    margin-top: 21px;
+    margin-left: 58px;
+}
+.nav_right{
+    margin-right: 37px;
+    margin-top: 39.35px;
+    display: var(--dflex);
+}
+.plogo{
+    font-family: Lato;
+  font-style:Regular;
+    font-size: 36px;
+  line-height: 43px;
+  text-transform: uppercase;
+}
+.btn_login{
+    padding: 8px 34px 9px 34px;
+    background: var(--white);
+    color: var(--white_grean);
+    border-radius: var(--border_radius10);
+    width: 126px;
+    height: 39px;
+    font-style: normal;
+    font-weight: var(--font_weight400);
+    font-size:var(--font_size18);
+    line-height: 22px;
+    border: var(--white);
+    cursor: pointer;
+    margin-right: 58px;
+
+}
+.btn_reg{
+    padding: 8px 34px 9px 34px;
+    background: var(--white_grean);
+    color: var(--white);
+    border-radius: var(--border_radius10);
+    width: 126px;
+    height: 39px;
+    font-style: normal;
+    font-weight: var(--font_weight400);
+    font-size:var(--font_size18);
+    line-height: 22px;
+    border: var(--white);
+    cursor: pointer;
+}

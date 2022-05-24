@@ -64,9 +64,7 @@ text-transform: uppercase;
   border: white;
   cursor: pointer;
 }
-.dbrw{
-  color: #30E0AB;
-}
+
 .dbrwb{
   background-color: #30E0AB;
 color: white;
@@ -74,10 +72,7 @@ color: white;
 .mr{
 margin-right: 58px;
 }
-.nav-right{
-  margin-right: 37px;
-  margin-top: 39.35px;
-}
+
 .btn{
   width: 251px;
   height: 60px;
