@@ -3,7 +3,17 @@
 @import url('https://fonts.googleapis.com/css?family=Mulish:400,700');
 @import url('https://fonts.googleapis.com/css?family=DM+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700');
-
+:root{
+  --white_grean:#30E0AB;
+  --white: #FFFFFF;
+  --dflex: flex;
+  --cursor_pointer: pointer;
+  --font_weight400: 400px;
+  --border_radius10:10px;
+  --font_size18:18px;
+  --center:center;
+  --between:space-between;
+}
 
 body{
   background: #F4F7FE;

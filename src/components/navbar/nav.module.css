@@ -1,12 +1,4 @@
-:root{
-    --white_grean:#30E0AB;
-    --white: #FFFFFF;
-    --dflex: flex;
-    --cursor_pointer: pointer;
-    --font_weight400: 400px;
-    --border_radius10:10px;
-    --font_size18:18px;
-}
+
 .nav{
     z-index: 1;
     top: 0;
@@ -60,4 +52,51 @@
     line-height: 22px;
     border: var(--white);
     cursor: pointer;
+}
+
+@media  (max-width: 860px) {
+    .nav_left {
+        margin-top: 35px;
+        margin-left: 30px;
+    }
+    .btn_login{
+        margin-right: 40px;
+
+    }
+}
+@media  (max-width:459px) {
+    .nav_right{
+        margin-left: 10px;
+    }
+    .btn_login, .btn_reg {
+        width: 7rem;
+        display: var(--dflex);
+        justify-content: var(--center);
+    }
+    .btn_login{
+        margin-bottom: 15px;
+        margin-right: 10px;
+        margin-left: 15px;
+    }
+    .btn_reg{
+        margin-bottom: 15px;
+
+    }
+}
+@media (max-width:393px) {
+    .nav_left{
+        margin-left: 10px;
+    }
+    .plogo{
+        font-size: 20px;
+    }
+    .nav_right{
+        max-width: 240px ;
+        margin-top: 35px !important;
+        margin-right: 0px;
+    }
+    .btn_login, .btn_reg{
+        margin-right: 5px !important;
+        width: 6rem !important;
+    }
 }
