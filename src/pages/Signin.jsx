@@ -4,17 +4,18 @@ import Email from '../components/inputs/auth/Email'
 import Password from '../components/inputs/auth/Password'
 import Sign from '../components/buttons/auth/Sign'
 import { Link } from 'react-router-dom'
+import style from './signin.module.css'
 const Signin = () => {
   return (
       <>
     <Nav/>
 
-    <div className='dflex faround mrt-110'>
-        <div className='im-auth im-s'>
+    <div className={style.faround}>
+        <div className={style.im_auth}>
             <img src="/signperson.png" alt="person" />
         </div>
-        <div className='auth-r dflex fcol'>
-            <div className='a-desc'>
+        <div className={style.auth_r}>
+            <div className={style.a_desc}>
             <h5>Sign In</h5>
             <span>Or create an account
                 <Link to='/signup'>
@@ -22,19 +23,19 @@ const Signin = () => {
                 </Link>
             </span>
             </div>
-            <div className='dflex fcol '>
-            <span className='in-text'>
+            <div className={style.em_wr}>
+            <span className={style.in_wr}>
                 Email
             </span>
             <Email/>
             </div>
-            <div className='dflex fcol mr-36'>
-            <span className='in-text'>
+            <div className={style.pss_wr}>
+            <span className={style.in_wr}>
                 Password
             </span>
             <Password/>
             </div>
-            <div className='dflex mr-36'>
+            <div className={style.btn_au}>
                 <Sign text="Sign in"/>
             </div>
         </div>

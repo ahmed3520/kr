@@ -1,10 +1,12 @@
 import React from 'react'
+import style from './auth.module.css'
+
 
 const Email = () => {
   return (
-    <div className='dflex au-input falcenter'>
-        <img src='/mail.svg' alt="E-mail icon" className='i-icon'/>
-        <input className='in-txt' type="email"/>
+    <div className={style.au_input}>
+        <img src='/mail.svg' alt="E-mail icon" className={style.i_icon}/>
+        <input className={style.in_txt} type="email"/>
     </div>
   )
 }

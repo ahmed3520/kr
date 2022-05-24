@@ -4,18 +4,19 @@ import Email from '../components/inputs/auth/Email'
 import Password from '../components/inputs/auth/Password'
 import Name from '../components/inputs/auth/Name'
 import Sign from '../components/buttons/auth/Sign'
-import { Link } from 'react-router-dom'
+import style from './signin.module.css'
+
 const Signup = () => {
   return (
       <>
     <Nav/>
 
-    <div className='dflex faround mrt-110'>
-        <div className='im-auth'>
+    <div className={style.faround}>
+    <div className={style.im_auth}>
             <img src="/humaaan-8.svg" alt="person" />
         </div>
-        <div className='auth-r'>
-            <div className='a-desc' style={{marginBottom:'40px'}}>
+        <div className={style.auth_r}>
+            <div className={style.a_desc} style={{marginBottom:'40px'}}>
             <p>Become a tutor</p>
             </div>
             <div className='dflex fcol '>
@@ -24,19 +25,19 @@ const Signup = () => {
             </span>
             <Name/>
             </div>
-            <div className='dflex fcol mrt-23'>
-            <span className='in-text'>
+            <div className={style.em_wr} style={{marginTop:'23px'}}>
+            <span className={style.in_wr}>
                 Email
             </span>
             <Email/>
             </div>
-            <div className='dflex fcol mrt-23'>
-            <span className='in-text'>
+            <div className={style.pss_wr} style={{marginTop:'23px'}}>
+            <span className={style.in_wr}>
                 Password
             </span>
             <Password/>
             </div>
-            <div className='dflex mr-36'>
+            <div className={style.btn_au}>
                 <Sign text="Sign up"/>
             </div>
         </div>
