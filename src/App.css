@@ -6,13 +6,31 @@
 :root{
   --white_grean:#30E0AB;
   --white: #FFFFFF;
+  --dark_val: #2B3674;
+  --gray:#848484;
   --dflex: flex;
   --cursor_pointer: pointer;
-  --font_weight400: 400px;
+  --font_weight400: 400;
+  --font_weight500: 500;
+  --font_weight800: 800;
   --border_radius10:10px;
+  --border_radius20:20px;
   --font_size18:18px;
+  --font_size24:24px;
+  --font_size64:64px;
   --center:center;
   --between:space-between;
+  --around: space-around;
+  --column: column;
+  --wrap: wrap;
+  --block: block;
+  --mulish: 'Mulish';
+  --dm_sans: 'DM Sans';
+  --inter: 'DM Sans';
+  --normal_style: normal;
+  --pos_abs: absolute;
+  --pos_relative: relative;
+  --space02: 0.02rem;
 }
 
 body{
@@ -127,7 +145,6 @@ border-radius: 20px;
 }
 .fback{
   background: #FFFFFF;
-box-shadow: 2px 4px 60px rgba(41, 44, 124, 0.1);
 border-radius: 20px;
 width: 477px;
 height: 208px;
@@ -159,7 +176,6 @@ border: 1px solid #BDBDD1;
 transform: rotate(-90deg);
 }
 .f-cont{
-  margin-top: 30px;
 }
 .desc{
   width: 410px;
