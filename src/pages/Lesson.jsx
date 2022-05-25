@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import Uploader from '../components/dropzone'
 import Input from '../components/Lesson/Input'
 import DashNav from '../components/navbar/DashNav'
+import style from './lesson.module.css'
 const Lesson = () => {
   const [selectedFile, setSelectedFile] = useState()
   const [preview, setPreview] = useState()
@@ -30,45 +31,45 @@ const Lesson = () => {
     setSelectedFile(e.target.files[0])
 }
   return (
-    < div className='dflex dcont'>
+    < div className={style.dcont}>
      <DashNav/>
 
-     <div className='len-cont'>
+     <div className={style.len_cont}>
 
-       <div className='len-header dflex '>
+       <div className={style.len_header}>
          <h4>
          Schedule a new lesson
          </h4>
        </div>
        { nextButton ===false?
-       <div className='len-details ' >
-         <div className='len-title'>
+       <div className={style.len_details}>
+         <div className={style.len_title} style={{marginTop:'10px'}}>
            <span>Details</span>
          </div>
-
-         <div className='dflex focl djspacebetween'>
-         <div className='len-left dflex fcol'>
-           <div className='dflex fcol les-thumb'>
-             <span className='les-span'>
+         {/*focl */}
+         <div className={style.focl} style={{display:'flex', justifyContent:'space-between'}}>
+         <div className={style.len_left}>
+           <div className={style.les_thumb}>
+             <span className={style.les_span}>
              Lesson Thumbnail
              </span>
-           <div className='lesson-prev dflex falcenter fcol fcenter'>
-           {selectedFile &&  <img src={preview} className="thumb-prev" alt='preview'/> }
-             <label className='dzu-inputLabel'>
+           <div className={style.lesson_prev}>
+           {selectedFile &&  <img src={preview} className={style.thumb_prev} alt='preview'/> }
+             <label className={style.dzu_inputLabel}>
              Drop image of your class here or browse
                <input type="file" accept='*'  onChange={onSelectFile}/>
              </label>
-             <span className='thumb-note'>Max file size 2mb</span>
+             <span className={style.thumb_note}>Max file size 2mb</span>
              </div>  
            </div>
-           <div className='les-price dflex fcol'>
-             <span className='les-span'>
+           <div className={style.les_price}>
+             <span className={style.les_span}>
                Lesson Price
              </span>
              <Input width={520} height={52} place="Type here"/>
            </div>
-           <div className='dflex fcol zoom-link'>
-             <span className='les-span'>
+           <div className={style.zoom_link}>
+             <span className={style.les_span}>
              Zoom Lesson Link
              </span>
              <Input width={520} height={75} place="Type here"/>
@@ -76,38 +77,40 @@ const Lesson = () => {
            </div>
          </div>
 
-         <div className='len-right dflex fcol'> 
-           <div className='les-title dflex fcol'>
-             <span className='les-span'>Lesson Title</span>
+         <div className={style.len_right}> 
+           <div style={{display:'flex', flexDirection:'column'}}>
+             <span className={style.les_span}>Lesson Title</span>
              <Input width={479} height={52} place="Type here"/>
            </div>
-           <div className='les-desc dflex fcol'>
-              <span className='les-span'>
+           
+           <div className={style.les_desc}>
+              <span className={style.les_span}>
               Lesson Description
               </span>
-              <div className='cs-input' style={{width:'542px', height:'130px'}}>
+              <div className={style.cs_input} style={{width:'542px', height:'130px'}}>
               <textarea name="comment[body]" placeholder='Type here'  style={{paddingTop:'1rem', width:'520px'}} className='les-input' rows="1" cols="50" wrap="physical" id="comment_text_area"></textarea>
 
               </div>
             </div> 
-            <div className='les-drop dflex'>
-              <div className='dflex fcol curren'>
-                <span className='les-span'>
+            <div className={style.les_drop}>
+              <div className={style.curren}>
+                <span className={style.les_span}>
                   Currency
                 </span>
-            <select name="" className="crnc">
+            <select name="" className={style.crnc}>
             <option value="egp">egp</option>
            </select>
               </div>
-              <div className='dflex fcol cat'>
-                <span className='les-span'>Lesson Category</span>
-              <select name="" className="crnc">
+              <div className={style.cat}>
+                <span className={style.les_span}>Lesson Category</span>
+              <select name="" className={style.crnc}>
               <option value="eng">eng</option>
              </select>
              </div>
             </div>
-            <div className='dflex fcol zoom-pas'>
-              <span className='les-span'>
+
+            <div className={style.zoom_pas}>
+              <span className={style.les_span}>
               Zoom Lesson  Password
               </span>
               <Input width={479} height={75} place="Type here"/>
@@ -115,68 +118,70 @@ const Lesson = () => {
          </div>
          </div>
 
-         <div className='dflex mrt-15 btns-les'>
-         <button className='cancel-btn'>Cancel</button>
+         <div className={style.btns_les}>
+         <button className={style.cancel_btn}>Cancel</button>
 
            <button className='bkg-cy' onClick={()=>setNext(!nextButton)}>Next</button>
          </div>
        </div>
             :<>
-            <div className='len-detail mr-50 mrr-50'>
-            <div className='len-title'>
+            <div className={style.len_detail}>
+            <div className={style.len_title}>
              <span>Lesson Details</span>
             </div>
-            <div className='dflex fcol'>
-              <div className='dflex dt djspacebetween'>
-              <div className='les-price dflex fcol'>
-             <span className='les-span'>
+            <div  style={{display:'flex', flexDirection:'column'}}>
+              <div 
+              className='dt'
+              style={{display:'flex',  justifyContent:'space-between'}}>
+              <div className={style.les_price}>
+             <span className={style.les_span}>
                Lesson Price
              </span>
              <Input width={520} height={52} place="Type here"/>
              </div>
-             <div className='les-price dflex fcol mrr1'>
-             <span className='les-span'>
+             <div className={style.les_price + ' '+ style.mrr1} >
+             <span className={style.les_span}>
              Time for the Lesson
              </span>
              <Input width={470} height={52} place="Type here"/>
            </div>
               </div>
 
-              <div className='dflex crs'>
-                <div className='dflex'>
+              <div className={style.crs}>
+                <div  style={{display:'flex'}}>
                 <span>Create a Schedule for the Sub Lessons</span>
                 <img src='/Calendar Plus.png' alt='calender'/>
                 </div>
               </div>
 
-              <div className='dflex slc djspacebetween'>
-              <div className='les-price dflex fcol'>
-             <span className='les-span'>
+              <div style={{display:'flex', justifyContent:'space-between', }} className='dt'>
+              <div className={style.les_price}>
+             <span className={style.les_span}>
              Sub Lesson Details?
              </span>
              <Input width={520} height={52} place="Type here"/>
              </div>        
-              <div className='dflex fcol lis les-price le-dr'>
-                <span className='les-span'>
+              <div className={style.lis +' '+style.les_price+' '+ style.le_dr}>
+                <span className={style.les_span}>
                   Currency
                 </span>
-            <select name="" className="les-time">
+            <select name="" className={style.les_time}>
             <option value="egp">egp</option>
            </select>
               </div>
               </div>
-              <div className='dflex fcol'>
-                <div className='les-price dflex fcol mrr1'>
-              <span className='les-span'>
+              <div style={{display:'flex', flexDirection:'column'}}>
+                <div className={style.les_price+ ' '+ style.mrr1}>
+              <span className={style.les_span}>
               Date
               </span>
               <Input width={470} height={52} place={"DD/MM/YY"}/>
                 </div>
-                <btn className="add-sc dflex fcenter falcenter">
+                <button className={style.add_sc}>
                   Add to Schedule
-                </btn>
+                </button>
               </div>
-              <div className='dflex btns-les'>
+              <div className={style.btns_les + ' '+ style.pbtn}>
            <button className='bkg-cy'>Publish</button>
          </div>
             </div>
