@@ -1,28 +1,29 @@
 import React from 'react'
 import ColumnState from './ColumnState'
+import style from './earning.module.css'
 const Earning = () => {
   return (
-    <div className='dflex fcol ear-es'>
-        <div className='ear-cont'>
-        <div className='dflex djspacebetween'>
-            <div className='dflex fcol '>
-            <span className='t-earning'>
+    <div className={style.ear_es}>
+        <div className={style.ear_cont}>
+        <div style={{display:'flex',justifyContent:'space-between'}}>
+            <div style={{display:'flex', flexDirection:'column'}}>
+            <span className={style.t_earning}>
                 Total Earning
             </span>
-            <span className='t-cash'>
+            <span className={style.t_cash}>
             $20,000
             </span>
             </div>
-            <div className='state-icon dflex fcenter'>
+            <div className={style.state_icon}>
                 <img src='/bar_chart.png' alt='chart bar'/>
             </div>
         </div>
-        <div className='seprated dflex falcenter'>
-        <div className="dashed"/>
-        <span className='dashed-num'>173</span>
+        <div className={style.seprated}>
+        <div className={style.dashed}/>
+        <span className={style.dashed_num}>173</span>
         </div>
         </div>
-        <div className='dflex candle-p'>
+        <div className= {style.candle_p}>
         <ColumnState choosen={''} percentage={'100'} day="jan" pos={'frst'}/>
         <ColumnState choosen={''} percentage={'50'} day="jan"/>
         <ColumnState choosen={'candle-act'} percentage={'100'} day="jan"/>

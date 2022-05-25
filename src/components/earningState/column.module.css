@@ -1,0 +1,42 @@
+.candle{
+background: #E9EDF7;
+border-radius: 8px;
+width: 34.52px;
+margin-right:20.7px ;
+margin-left:20.7px ;
+margin-top: auto;
+}
+.can_day{
+    font-family: var(--dm_sans);
+    font-style: var(--normal_style);
+    font-weight: var(--font_weight500);
+    font-size: var(--font_size12);
+    line-height: 20px;
+    text-align: var(--center);
+    letter-spacing: -0.02em;
+    color: #A3AED0;
+}
+.frst{
+    margin-left: 0px;
+  }
+
+@media (max-width:1382px){
+    .candle{
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+}
+@media  (max-width: 920px) {
+    .candle{
+        margin-left: 10px;
+        margin-right: 10px;
+    } 
+}
+@media  (max-width:459px) {
+    .candle{
+        width: 30px;
+        margin-left: 0px;
+        margin-right: 5px;
+    } 
+}

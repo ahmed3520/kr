@@ -1,15 +1,15 @@
 import React from 'react'
-
+import style from './live.module.css'
 const Live = ({name, date}) => {
   return (
-      <div className='live-cont dflex'>
-    <div className='li-border'>
+      <div className={style.live_cont}>
+    <div className={style.li_border}>
             </div>
-        <div className='li-con dflex fcol'>
-            <span className='li-name'>
+        <div className={style.li_con}>
+            <span className={style.li_name}>
                 {name}
-            </span>
-            <span className='li-date'>
+            </span> 
+            <span className={style.li_date}>
             {date}    
             </span>
         </div> 

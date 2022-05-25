@@ -1,0 +1,107 @@
+.state_wrapper{
+    display: var(--dflex);
+    flex-direction: var(--column);
+    width: 259.23px;
+    height: 97.09px;
+    background: var(--white);
+    border-radius: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    position: relative;
+}
+.st_wr{
+    height: 100%;
+}
+.st_na{
+    margin-left: 24.5px;
+  }
+.st_name{
+    height: 25px;
+    font-family: var(--dm_sans);
+    font-style: var(--normal_style);
+    font-weight: var(--font_weight500);
+    font-size: var(--font_size14);
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #A3AED0;
+}
+.st_num{
+     height: 33px;
+    font-family: var(--dm_sans);
+    font-style: var(--normal_style);
+    font-weight: var(--font_weight700);
+    font-size: var(--font_size24);
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #1B2559;
+}
+.te{
+    position: relative !important;
+    color: #FFFFFF !important;
+    background: linear-gradient(135deg, rgba(48, 224, 171, 0.64) 0%, rgba(0, 255, 178, 0.8) 100%) !important;
+  }
+.st_wr{
+    height: 100%;
+}
+.st_na{
+    margin-left: 24.5px;
+  }
+  .st_per{
+    width: 56.05px;
+  height: 56.05px;
+  border-radius: 50%;
+  margin-left: 17.2px;
+  margin-right: 17.78px;
+  }
+  .fo{
+    font-family: var(--dm_sans);
+    font-style: var(--normal_style);
+    font-weight: var(--font_weight500);
+    font-size: var(--font_size16);
+    line-height: 28px;
+    }
+    .im_chart{
+        position: absolute;
+        width: 87.58px;
+        height: 39.53px;
+        right: 0;
+        margin-top: 29px;
+        margin-right: 17.01px;
+      }
+@media (max-width:1382px){
+    .state_wrapper{
+        width: 200px;
+    }
+    .st_name{
+        font-size: 12px;
+    }
+}
+@media  (max-width: 860px) {
+    .state_wrapper{
+        width: 150px;
+    }
+    .st_num{
+        margin-left: 5px;
+    }
+    .im-chart{
+        right: -40px;
+        top: -20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .state_wrapper{
+        width: 130px;
+    }
+    .st_na{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+}
+@media  (max-width:459px) {
+    .state_wrapper {
+        width: 46%;
+        margin-bottom: 5px;
+    }
+}

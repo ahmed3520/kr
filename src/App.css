@@ -16,10 +16,13 @@
   --font_weight700: 700;
   --border_radius10:10px;
   --border_radius20:20px;
-  --font_size18:18px;
-  --font_size16:16px;
+  --font_size12:12px;
+  --font_size14:14px;
   --font_size15:15px;
+  --font_size16:16px;
+  --font_size18:18px;
   --font_size24:24px;
+  --font_size34:34px;
   --font_size64:64px;
   --center:center;
   --between:space-between;
@@ -570,7 +573,6 @@ color: #1B2559;
 }
 .st-wr{
   height: 100%;
-  
 }
 .st-cash{
   width: 56.05px;
@@ -894,7 +896,7 @@ color: #A3AED0;
   margin-left: 0px;
 }
 .candle-act{
-  background: #30E0AB;
+  background: #30E0AB !important;
 }
 .notification{
 width: 400px;

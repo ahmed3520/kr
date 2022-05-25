@@ -1,0 +1,36 @@
+.live_cont{
+    display: var(--dflex);
+    width: 100%;
+    margin-bottom: 21px;
+}
+.li_border{
+    margin-left: 28px;
+    width: 4px;
+    height: 41px;
+    background: var(--white_grean);
+    border-radius: 16px;
+}
+.li_con{
+    display: var(--dflex);
+    flex-direction: var(--column);
+    margin-left: 10px;
+
+}
+.li_name{
+    font-family: var(--dm_sans);
+    font-style: var(--normal_style);
+    font-weight: var(--font_weight700);
+    font-size: var(--font_size16);
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #1B2559;
+}
+.li_date{
+    font-family: var(--dm_sans);
+    font-style: var(--normal_style);
+    font-weight: var(--font_weight500);
+    font-size: var(--font_size12);
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #A3AED0;
+}

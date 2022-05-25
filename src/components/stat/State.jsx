@@ -1,23 +1,23 @@
 import React from 'react'
-
+import style from './state.module.css'
 const State = () => {
   return (
     <>
-    <div className='dflex fcol state-wrapper'>
+    <div  className={style.state_wrapper}>
         <div className='dflex fcol st-wr fcenter st-na'>
-            <div className='dflex'>
+            <div style={{display:'flex'}}>
             <span className='st-name'>
             Total Live Lessons
             </span>
             </div>
-            <div className='dflex'>
+            <div style={{display:'flex'}}>
             <span className='st-num'>
             131
             </span>
             </div>
         </div>
     </div>
-    <div className='dflex  state-wrapper falcenter'>
+    <div className={style.state_wrapper} style={{ flexDirection:'row',alignItems:'center'}}>
         <div className='st-cash dflex fcenter falcenter'>
             <img src='/subscriptions.png' alt='subscription image'/>
         </div>
@@ -30,7 +30,7 @@ const State = () => {
             </span>
         </div>
     </div>
-    <div className='dflex  state-wrapper falcenter'>
+    <div className={style.state_wrapper} style={{ flexDirection:'row',alignItems:'center'}}>
         <div className='st-per dflex fcenter bkg-cy falcenter'>
             <img src='/st-person.png' alt='subscription image'/>
         </div>
@@ -44,14 +44,14 @@ const State = () => {
         </div>
         <img className='im-graph' src='/Graph.png'/>
     </div>
-    <div className='dflex fcol state-wrapper te'>
+    <div  className={style.te + " " +style.state_wrapper } >
         <div className='dflex fcol st-wr fcenter st-na'>
             <div className='dflex'>
             <span className='st-name cl-white fo'>
             Total Earning
             </span>
             </div>
-            <div className='dflex'>
+            <div className='dflex' style={{display:'flex'}}>
             <span className='st-num cl-white' >
             $5340.50
             </span>
