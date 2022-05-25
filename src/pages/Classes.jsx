@@ -2,23 +2,24 @@ import React from 'react'
 import DashNav from '../components/navbar/DashNav'
 import Card from '../components/Lesson/Card'
 import CompLesson from '../components/Lesson/CompLesson'
+import style from './classes.module.css'
 const Classes = () => {
   return (
-    < div className='dflex dcont'>
+    < div className={style.dcont}>
      <DashNav/>
 
-     <div className='len-cont'>
+     <div className={style.len_cont}>
 
-      <div className='len-header dflex '>
+     <div className={style.len_header}>
          <h4>
          My Lesson 
          </h4>
       </div>
-      <div className='len-details ' >
-         <div className='len-title com-titl  mrt-15'>
+      <div className={style.len_details}>
+         <div  className={style.len_title+' '+ style.com_title} style={{marginTop:'15px'}}>
            <span>Upcoming Live Lessons </span>
          </div>
-         <div className='dflex lesson-cont faround flx-5'>
+         <div  className = {style.lesson_cont + ' '+ style.faround}>
            <Card img={'lesson.png'} title='English basics for young grad' desc={'This class is for students who arew iontreseted in improving thier english skills'}
            date='3rd of August 6:30 Est' 
            />
@@ -32,10 +33,11 @@ const Classes = () => {
            date='3rd of August 6:30 Est' 
            />
          </div>
-         <div className='len-title com-titl  mrt-15'>
+         
+         <div  className={style.len_title+' '+ style.com_title} style={{marginTop:'15px'}}>
            <span>Completed Lessons</span>
          </div>
-         <div className='dflex comp-cont faround flx-5'>
+         <div  className = {style.comp_cont + ' '+ style.faround}>
            
            <CompLesson img={'lessoncom.png'} date='3rd of August 6:30 Est' title='English basics for young grad'
            grpNumbers='47 student registered'/>

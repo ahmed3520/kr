@@ -1,0 +1,60 @@
+.complete_card{
+    width: 100%;
+    max-width: 475px;
+    max-height: 84px;
+    display: var(--dflex);
+    margin-top: 15px;
+}
+.lesson_img{
+    max-width:160px;
+    max-height: 168px;
+    border-radius: 10px;
+  }
+  .comp_det{
+      display: flex;
+      flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    }
+
+.card_title{
+    max-width: 266px;
+    max-height: 30px;
+    font-family: var(--dm_sans);
+    font-style: var(--normal_style);
+    font-weight: var(--font_weight400);
+    font-size: var(--font_size14);
+    line-height: 42px;
+    letter-spacing: -0.02em;
+}
+.card_date{
+    max-width: 99px;
+    max-height: 15px;
+    
+    font-family: var(--dm_sans);
+    font-style: var(--normal_style);
+    font-weight: var(--font_weight400);
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    color: #858585;
+    }
+    .comp_d{
+        display: flex;
+    }
+@media (max-width:700px){
+    .lesson_card,.lesson_img {
+        max-height: 200px;
+    }
+}
+@media  (max-width:459px) {
+    .card_title{
+        line-height: 12px;
+    }
+    .comp_d{
+        flex-direction: column;
+
+    }
+} 

@@ -1,9 +1,9 @@
 import React from 'react'
-
+import style from './input.module.css'
 const Input = ({width, height, place}) => {
   return (
-    <div className='cs-input' style={{width:`${width}px`, height:`${height}px`}}>
-        <input className='les-input' placeholder={place}/>
+    <div className={style.cs_input} style={{width:`${width}px`, height:`${height}px`}}>
+        <input className={style.les_input} placeholder={place}/>
     </div>
   )
 }

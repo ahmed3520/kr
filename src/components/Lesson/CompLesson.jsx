@@ -1,22 +1,22 @@
 import React from 'react'
-
+import style from './completedles.module.css'
 const CompLesson = ({img, title, date, grpNumbers}) => {
   return (
-    <div className='dflex complete-card mrt-15'>
-        <img src={'/'+img} className='lesson-img' alt={title}/>
-        <div className='dflex fcol comp-det'>
-            <div className='mr-12p'>
-                <span className='comp-title card-title'>
+    <div className={style.complete_card}>
+        <img src={'/'+img} className={style.lesson_img} alt={title}/>
+        <div className={style.comp_det}>
+            <div  style={{marginLeft:'12px'}}>
+                <span className={style.comp_title+ ' '+style.card_title}>
                     {title}
                 </span>   
-                <div className="dflex comp-d">
-                <div className='dflex mrb22 complete-date' style={{width:'50%'}}>
+                <div className={style.comp_d}>
+                <div className={style.complete_date} style={{width:'50%', display:'flex', marginBottom:'22px'}}>
                     <img src='/clock.png' alt='clock' style={{marginRight:'5px'}}/>
-                    <span className='card-date'>{date}</span>
+                    <span className={style.card_date}>{date}</span>
               </div>
-              <div className='dflex mrb22 complete-num'>
+              <div className={style.complete_num} style={{width:'50%', display:'flex', marginBottom:'22px'}}>
                     <img src='/Users.png' alt='users icon' style={{marginRight:'5px'}}/>
-                    <span className='card-date'>{grpNumbers}</span>
+                    <span className={style.card_date}>{grpNumbers}</span>
               </div>
                 </div>
 

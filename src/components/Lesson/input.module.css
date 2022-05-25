@@ -1,0 +1,46 @@
+.cs_input{
+    background: #FFFFFF;
+    border-radius: 5px;  
+}
+.les_input{
+    width: 100%;
+    overflow: hidden;
+    border: none;
+    height: 100%;
+    padding-left: 1rem;
+    outline: none;
+  }
+@media (max-width:1382px){
+    .cs-input{
+        width: 460px !important;
+    }
+    .les_input{
+        width: 460px !important;
+        padding-left: 0.5rem ;
+    }
+}
+@media (max-width:1100px){
+    .cs-input{
+        width: 350px !important;
+    } 
+    .les_input{
+        width: 350px !important;
+        padding-left: 0.5rem !important;
+    }
+}
+@media  (max-width: 860px) {
+    .cs_input{
+        width: 300px !important;
+    }
+    .les_input{
+        width: 300px !important;
+
+    }
+}
+@media (max-width: 700px) {
+    .cs_input, .les_input{
+        width: 100% !important;
+
+    }
+    
+}

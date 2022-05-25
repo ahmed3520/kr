@@ -1,24 +1,24 @@
 import React from 'react'
-
+import style from './card.module.css'
 const Card = ({img, title, date,desc}) => {
   return (
-    <div className='dflex lesson-card mrt-15'>
-        <img src={'/'+img} className='lesson-img' alt={desc}/>
-        <div className='dflex fcol card-det'>
-            <div className='mr-12p'>
-            <span className='card-title'>{title}</span>
-            <div className='dflex mrb22'>
+    <div  className={style.lesson_card}>
+        <img src={'/'+img} className={style.lesson_img} alt={desc}/>
+        <div className={style.card_det}>
+            <div  style={{marginLeft:'12px'}}>
+            <span className={style.card_title}>{title}</span>
+            <div style={{marginBottom: '22px', display:'flex'}}>
                 <img src='/clock.png' alt='clock' style={{marginRight:'5px'}}/>
-                <span className='card-date'>{date}</span>
+                <span className={style.card_date}>{date}</span>
             </div>
-            <span className='card-desc'>
+            <span className={style.card_desc}>
                 {desc}
             </span>
-            <div className='btn-grp mrt-20 dflex'>
-                <button className='edit dflex fcenter falcenter'>
+            <div className={style.btn_grp} style={{marginTop:'20px'}}>
+                <button className={style.edit}>
                     Edit
                 </button>
-                <button className='share dflex fcenter falcenter'>
+                <button className={style.share}>
                     Share
                 </button>
             </div>
