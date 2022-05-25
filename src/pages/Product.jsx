@@ -1,9 +1,9 @@
 import React from 'react'
 import Nav from '../components/navbar/Nav'
-import LearningStep from '../components/product/LearningStep'
 import Lesson from '../components/product/Lesson'
 import LessonReserve from '../components/product/LessonReserve'
 import Scehdule from '../components/product/Scehdule'
+import style from './product.module.css'
 const Product = () => {
     const learn=[
         ' Learn the basics of why things are funny, to joke writing, and performing live and how to navigate the comedy circuit & build your career.',
@@ -31,7 +31,7 @@ const Product = () => {
   return (
     <>
       <Nav/>
-      <div className='dflex pr-cont faround'>
+      <div className={style.pr_cont +' ' + style.faround}>
       <LessonReserve lessonTitle={'Learn English by Karen Tutor'} liveDate={'01:00 PM - 02:00 PM 11th of May'}
       category='Language' teacher={'Karen Tutor'} price={'35$'} numberOfResgesteredStudents={'6'}
       />

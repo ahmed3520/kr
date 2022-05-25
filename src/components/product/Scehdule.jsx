@@ -1,12 +1,12 @@
 import React from 'react'
 import ScehduleDate from './ScehduleDate'
-
+import style from './scehdule.module.css'
 const Scehdule = ({classScehdule}) => {
   return (
-    <div className='dflex fcol class-cont'>
-        <div className='sub-cont'>
-            <div className='cls-title mrb22'>
-                <span className='re-data cls-sp'>Class Scehdule</span>
+    <div className={style.class_cont}>
+        <div className={style.sub_cont}>
+            <div className={style.cls_title}>
+                <span className={style.cls_sp}>Class Scehdule</span>
             </div>
             {
                 classScehdule.map((val,index)=>{

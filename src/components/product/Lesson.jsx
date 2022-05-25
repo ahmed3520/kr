@@ -1,21 +1,21 @@
 import React from 'react'
-
+import style from './lesson.module.css'
 const Lesson = ({img,desc, learn}) => {
   return (
-    <div className='dflex fcol learn-cont'>
-        <div className='dflex fcol lesson-banner'>
-            <img src={'/'+img} className='lesson-img-banner' alt={desc}/>
-            <p className='lesson-desc fds500'>
+    <div className={style.learn_cont}>
+        <div className={style.lesson_banner}>
+            <img src={'/'+img} className={style.lesson_img_banner} alt={desc}/>
+            <p className={style.lesson_desc+ ' '+  style.fds500}>
                 {desc}
             </p>
         </div>
-        <div className='dflex fcol learning-st'>
-            <span className='wt-learn re-data'>
+        <div className={style.learning_st}>
+            <span className={style.wt_learn+' '+ style.re_data}>
             What will you learn?
             </span>
             <ul>
                 {learn.map((val,index)=>{
-                    return <li key={index} className='learn-li fds500'>{val}</li>
+                    return <li key={index} className={style.learn_li+' '+ style.fds500}>{val}</li>
                 })}
             </ul>
         </div>

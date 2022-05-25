@@ -1,34 +1,35 @@
 import React from 'react'
 import SubLessonDetail from './SubLessonDetail'
+import style from './lessonreserve.module.css'
 const LessonReserve = ({lessonTitle, liveDate, category, teacher, price, numberOfResgesteredStudents}) => {
   return (
-    <div className='dflex fcol l-reserve'>
-        <div className='dflex fcol ls-preb'>
-        <span className='l-title'>{lessonTitle}</span>
+    <div className={style.l_reserve}>
+        <div className={style.ls_preb}>
+        <span className={style.l_title}>{lessonTitle}</span>
 
      
-        <div className='dflex l-live'>
-            <div className='li-border mrr-10' style={{height:'auto', marginLeft:'0px'}}>
+        <div className={style.l_live}>
+            <div className={style.li_border} style={{height:'auto', marginLeft:'0px'}}>
             </div>
             <SubLessonDetail title='Going Live' data={liveDate} mrb={0}/>
         </div>
-        <div className='dflex l-cat mrt-20'>
+        <div className={style.l_cat}>
             <SubLessonDetail title='Category' data={category} mrb={0}/>
         </div>
         <div className='dflex l-cat'>
             <SubLessonDetail title='Teacher' data={teacher} mrb={0}/>
         </div> 
-        <div className='dflex l-cat'>
+        <div className={style.l_cat}>
             <SubLessonDetail title='Price for all classes' data={price} mrb={0}/>
         </div> 
-        <div className='dflex fcol'>
-            <span className='les-span' style={{fontWeight:'700', marginBottom:'0'}}>
+        <div   style={{display:'flex', flexDirection:'column'}}>
+            <span className={style.les_span} style={{fontWeight:'700', marginBottom:'0'}}>
                 {numberOfResgesteredStudents}
             </span>
-            <span className='st-reg re-data'>Students registered</span>
+            <span className={style.st_reg}>Students registered</span>
         </div>
         </div>
-        <button className='res-submit dflex fcenter falcenter'>
+        <button className={style.res_submit}>
         Reserve Seat
         </button>
     </div>

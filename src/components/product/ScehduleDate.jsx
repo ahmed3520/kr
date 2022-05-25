@@ -1,12 +1,12 @@
 import React from 'react'
-
+import style from './scehduleDate.module.css'
 const ScehduleDate = ({title, date}) => {
   return (
-    <div className='dflex fcol sc-date mrb30'>
-        <span className='les-span scehdule-date '> 
+    <div className={style.sc_date}>
+        <span className={style.les_span}> 
             {date}
         </span>
-        <span className='scehdule-title'>
+        <span className={style.scehdule_title}>
             {title}
         </span>
     </div>

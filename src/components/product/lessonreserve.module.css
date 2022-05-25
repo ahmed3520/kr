@@ -1,0 +1,108 @@
+.l_reserve{
+    display: var(--dflex);
+    flex-direction: column;
+}
+.ls_preb{
+    display: var(--dflex);
+    flex-direction: column;
+}
+
+.l_title{
+    max-width: 342px;
+    max-height: 90px;
+    display: var(--dflex);
+    font-family: var(--mulish);
+    font-style: var(--normal_style);
+    font-weight: var(--font_weight800);
+    font-size: var(--font_size36);
+    line-height: 45px;
+    color: #2B3674;
+}
+.l_live{
+    
+    max-height: 52px;
+    margin-top: 33px;
+    display: var(--dflex);
+  }
+.li_border{
+    margin-left: 28px;
+  margin-right: 10px;
+
+  width: 4px;
+  height: 41px;
+  background: var(--white_grean);
+  border-radius: 16px;
+  }
+.l_cat{
+    display: flex;
+  margin-bottom: 18px;
+  margin-top: 20px;
+
+}
+.les_span{
+    font-family: var(--dm_sans);
+    font-style: var(--normal_style);
+    font-weight: var(--font_weight500);
+    font-size: 20px;
+    line-height: 42px;
+    letter-spacing: -0.02em;
+    margin-bottom: 10px;
+    color: #858585;
+}
+
+.st_reg{
+    color: rgba(27, 37, 89, 0.8);
+
+    max-width: 240px;
+    max-height: 20px;
+    font-family: var(--dm_sans);
+    font-style: var(--normal_style);
+    font-weight: var(--font_weight400);
+    line-height: 20px;
+    letter-spacing: -0.02em;
+   }
+   .res_submit{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    margin-top: 35px;
+    background: var(--white_grean);
+    border-radius: 10px;
+    max-width: 300px;
+    max-height: 45px;
+    height: 45px;
+    color: var(--white);
+    font-family: var(--dm_sans);
+    font-style: var(--normal_style);
+    font-weight: var(--font_weight700);
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    border: none;
+    outline: none;
+  }
+@media (max-width:1382px){
+    .l_reserve{
+        width: 30%;
+    }
+}
+@media (max-width: 700px) {
+    .l_reserve{
+        width: 100%;
+    } 
+    .res_submit{
+        width: 100%;
+        max-width: 100%;
+    }
+}
+@media  (max-width: 860px) {
+    .les_span{
+        font-size: 16px !important;
+    }
+}
+@media  (max-width:459px) {
+    .l_reserve{
+        width: 90%;
+        margin: 0 10px;
+    }
+}
