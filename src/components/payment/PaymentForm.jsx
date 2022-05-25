@@ -1,50 +1,53 @@
 import React from 'react'
-
+import style from './paymentform.module.css'
 const PaymentForm = () => {
   return (
-    <div className='dflex fcol payment-form'>
-        <div className='payment-header'>
-            <span className='re-data pay-header'>
+    <div className={style.payment_form}>
+        <div className={style.payment_header}>
+            <span className={style.pay_header}>
             Your payment details
             </span>
         </div>
-        <div className='payment-in dflex fcol'>
-            <span className='pfs'>
+        
+        <div className={style.payment_in}>
+            <span className={style.pfs}>
                 Name
             </span>
-            <input type='text' className='payment-in' placeholder='Karen Tutor'/>
+            <input type='text' className={style.payment_in} placeholder='Karen Tutor'/>
         </div>
-        <div className='payment-in mrt-72 dflex fcol'>
-            <span className='pfs'>
+        <div className={style.payment_in} style={{marginTop:'72px'}}>
+            <span className={style.pfs}>
             CARD NUMBER
             </span>
-            <div className='dflex p-card'>
-            <input type='tel' maxLength='19' className='payment-in' placeholder='3876  3422 6564  8028'/>
+            <div className={style.p_card}>
+            <input type='tel' maxLength='19' className={style.payment_in} placeholder='3876  3422 6564  8028'/>
             <img src='/visa.png' alt='visa icon'/>
             </div>
         </div>
-        <div className='dflex mrt-72 card-details'>
-        <div className="dflex fcol p-card-det">
-            <span className='pfs' style={{marginBottom:'16px'}}>
+
+        <div className={style.card_details} style={{marginTop:'72px'}}>
+        <div className={style.p_card_det}>
+            <span className={style.pfs} style={{marginBottom:'16px'}}>
             EXPIRATION DATE
             </span>
-            <div className='dflex djspacebetween s-wrapper' style={{maxWidth:'80%'}}>
-             <div className='payment-drp'>
-                <select name="month" className="month pselect">
-                    <option value="September" className='op-month'>September</option>
+
+            <div className={style.s_wrapper} style={{maxWidth:'80%'}}>
+             <div className={style.payment_drp}>
+                <select name="month" className={style.pselect}>
+                    <option value="September" className={style.op_month}>September</option>
                 </select>
             </div>
-            <div className='payment-drp' style={{width:'40%'}}>
+            <div className={style.payment_drp} style={{width:'40%'}}>
                 <select name="year" className="year pselect">
-                    <option value="2017" className='op-year'>2017</option>
+                    <option value="2017" className={style.op_year}>2017</option>
                 </select>
             </div>
             </div>
 
         </div>
-        <div className='dflex fcol br-none'>
-                <div className='dflex'>
-                <span className='pfs'>
+        <div className={style.br_none}>
+                <div  style={{display:'flex'}}>
+                <span className={style.pfs}>
                     CVC
                 </span>
                 <img src='/Group.png' alt='question mark'/>
@@ -52,13 +55,13 @@ const PaymentForm = () => {
                 <input maxLength={3} minLength={3} placeholder='XXX' type='tel' className='in-csv'/>
             </div>
             </div>
-        <div className='card-checkbox'>
-            <label className="cont-checkbox">Save my card for future purchase
+        <div className={style.card_checkbox}>
+            <label className={style.cont_checkbox}>Save my card for future purchase
                 <input type="checkbox" checked="checked"/>
-                <span className="checkmark"></span>
+                <span className={style.checkmark}></span>
             </label>
         </div>
-        <button className='payment-submit bkg-cy dflex fcenter falcenter'>
+        <button className={style.payment_submit}>
                 Publish
         </button>
     </div>

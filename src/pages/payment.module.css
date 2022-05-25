@@ -1,0 +1,28 @@
+.payment_cont{
+    display: flex;
+    margin-left: 53px;
+    margin-right: 147px;
+    margin-top: 70px;
+}
+@media (max-width:1100px){
+    .payment_cont{
+        margin-left: 50px;
+    }
+}
+@media  (max-width: 860px) {
+    .payment_cont{
+        margin-right: 40px;
+    }
+}
+@media (max-width: 700px) {
+    .payment_cont{
+        flex-direction: column;
+    }
+}
+@media  (max-width:459px) {
+    .payment_cont{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
+

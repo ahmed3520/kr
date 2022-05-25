@@ -1,18 +1,19 @@
 import React from 'react'
+import style from './lessondetail.module.css'
 
 const LessonDetail = ({img, title, price}) => {
   return (
-    <div className='dflex fcol payment-left'>
-        <img className='lesson-img-banner' src={'/'+img} alt={title}/> 
-        <div className='dflex fcol payment-pr'>
-        <span className='re-data'>
+    <div className={style.payment_left}>
+        <img className={style.lesson_img_banner} src={'/'+img} alt={title}/> 
+        <div className={style.payment_pr}>
+        <span className={style.re_data}>
             {title}
         </span>  
  
-            <span className='les-span re-sp mrt-23'>
+            <span className={style.les_span+' '+ style.re_sp} style={{marginTop:'23px'}}>
             Price for all classes
             </span>
-            <span className='re-data cls-sp' style={{lineHeight:'20px'}}>
+            <span className={style.cls_sp} style={{lineHeight:'20px'}}>
                 {price}
             </span>
         </div>
