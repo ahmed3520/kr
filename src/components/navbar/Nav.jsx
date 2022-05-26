@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from "react-router-dom";
-import navStyle from './nav.module.css'
+import navStyle from './css/nav.module.css'
 const Nav = () => {
     let navigate = useNavigate();
     function navigateUser(path){

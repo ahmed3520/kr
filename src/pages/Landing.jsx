@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from '../components/navbar/Nav'
-import landing from './landing.module.css'
+import landing from './css/landing.module.css'
 const Landing = () => {
   return (
     <>

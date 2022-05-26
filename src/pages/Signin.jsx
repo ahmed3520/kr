@@ -4,7 +4,7 @@ import Email from '../components/inputs/auth/Email'
 import Password from '../components/inputs/auth/Password'
 import Sign from '../components/buttons/auth/Sign'
 import { Link } from 'react-router-dom'
-import style from './auth.module.css'
+import style from './css/auth.module.css'
 const Signin = () => {
   return (
       <>

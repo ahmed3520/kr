@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './notify.module.css'
+import style from './css/notify.module.css'
 const Notify = ({img,desc,date}) => {
   return (
     <div style={{marginTop:'12px', display:'flex'}}>

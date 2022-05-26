@@ -4,7 +4,7 @@ import State from '../components/stat/State'
 import DashFeed from '../components/Feed/DashFeed'
 import Earning from '../components/earningState/Earning'
 import Notify from '../components/notifications/Notify'
-import style from './dashboard.module.css'
+import style from './css/dashboard.module.css'
 const Dashboard = () => {
   return (
     <div className={style.dcont}>

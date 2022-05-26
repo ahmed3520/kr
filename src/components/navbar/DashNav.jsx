@@ -2,7 +2,7 @@ import React from 'react'
 import { useLocation } from "react-router-dom";
 import { Dash, Class, Lesson, Setting, Dashunvisited, Classunvisited, Lessonunvisited } from '../icons'
 import { useNavigate } from "react-router-dom";
-import style from './dash.module.css'
+import style from './css/dash.module.css'
 const DashNav = () => {
     const location = useLocation();
     //destructuring pathname from location
@@ -85,7 +85,7 @@ const DashNav = () => {
                 </div>
             </div>
             </div>
-            <div className={style.lg_out +' '+  style.d_left} style={{position:'relative', height:'10%'}}>
+            <div className={style.lg_out +' '+  style.d_left} style={{position:'relative', height:'10%', flexDirection:'row'}}>
                 <div className={style.im_c}>
                 <img className='lg-img' src='/lg-out.png' alt="log out"/>
                 </div>

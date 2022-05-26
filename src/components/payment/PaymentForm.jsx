@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './paymentform.module.css'
+import style from './css/paymentform.module.css'
 const PaymentForm = () => {
   return (
     <div className={style.payment_form}>

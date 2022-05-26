@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './completedles.module.css'
+import style from './css/completedles.module.css'
 const CompLesson = ({img, title, date, grpNumbers}) => {
   return (
     <div className={style.complete_card}>

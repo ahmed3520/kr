@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './lesson.module.css'
+import style from './css/lesson.module.css'
 const Lesson = ({img,desc, learn}) => {
   return (
     <div className={style.learn_cont}>

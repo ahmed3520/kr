@@ -1,6 +1,6 @@
 import React from 'react'
 import ScehduleDate from './ScehduleDate'
-import style from './scehdule.module.css'
+import style from './css/scehdule.module.css'
 const Scehdule = ({classScehdule}) => {
   return (
     <div className={style.class_cont}>

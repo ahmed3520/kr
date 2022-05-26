@@ -1,6 +1,6 @@
 import React from 'react'
 import SubLessonDetail from './SubLessonDetail'
-import style from './lessonreserve.module.css'
+import style from './css/lessonreserve.module.css'
 const LessonReserve = ({lessonTitle, liveDate, category, teacher, price, numberOfResgesteredStudents}) => {
   return (
     <div className={style.l_reserve}>

@@ -2,7 +2,7 @@ import React from 'react'
 import Nav from '../components/navbar/Nav'
 import LessonDetail from '../components/payment/LessonDetail'
 import PaymentForm from '../components/payment/PaymentForm'
-import style from './payment.module.css'
+import style from './css/payment.module.css'
 const Payment = () => {
   return (
     <>

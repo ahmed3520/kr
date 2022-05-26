@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './lessondetail.module.css'
+import style from './css/lessondetail.module.css'
 
 const LessonDetail = ({img, title, price}) => {
   return (

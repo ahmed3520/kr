@@ -5,6 +5,10 @@
     display: var(--dflex);
     margin-top: 15px;
 }
+.complete_date{
+    width: 50%;
+
+}
 .lesson_img{
     max-width:160px;
     max-height: 168px;
@@ -56,5 +60,8 @@
     .comp_d{
         flex-direction: column;
 
+    }
+    .complete_date, .complete_num{
+        width: 100% !important;
     }
 } 

@@ -2,7 +2,7 @@ import React from 'react'
 import DashNav from '../components/navbar/DashNav'
 import Card from '../components/Lesson/Card'
 import CompLesson from '../components/Lesson/CompLesson'
-import style from './classes.module.css'
+import style from './css/classes.module.css'
 const Classes = () => {
   return (
     < div className={style.dcont}>

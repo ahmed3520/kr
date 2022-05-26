@@ -40,7 +40,7 @@
     line-height: 23px;
     border-radius: var(--border_radius10);
     border: none;
-    cursor: var(cursor_pointer); 
+    cursor: var(--cursor_pointer); 
     background-color: var(--white_grean);
     color: var(--white);
 }

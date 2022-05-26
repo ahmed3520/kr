@@ -1,6 +1,6 @@
 import React from 'react'
 import ColumnState from './ColumnState'
-import style from './earning.module.css'
+import style from './css/earning.module.css'
 const Earning = () => {
   return (
     <div className={style.ear_es}>

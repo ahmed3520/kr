@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './column.module.css'
+import style from './css/column.module.css'
 const ColumnState = ({choosen, day, percentage, pos}) => {
   return (
     <>

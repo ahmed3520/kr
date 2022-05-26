@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './scehduleDate.module.css'
+import style from './css/scehduleDate.module.css'
 const ScehduleDate = ({title, date}) => {
   return (
     <div className={style.sc_date}>

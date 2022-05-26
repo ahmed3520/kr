@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './live.module.css'
+import style from './css/live.module.css'
 const Live = ({name, date}) => {
   return (
       <div className={style.live_cont}>

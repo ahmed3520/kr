@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './input.module.css'
+import style from './css/input.module.css'
 const Input = ({width, height, place}) => {
   return (
     <div className={style.cs_input} style={{width:`${width}px`, height:`${height}px`}}>

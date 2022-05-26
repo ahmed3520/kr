@@ -6,12 +6,14 @@
     width: 100%;
     height:100%;
 }
+
 .len_header{
     width: 100%;
     background: #ffffff;
     height: 156px;
     display: var(--dflex);
 }
+
 .len_header >h4{
     font-family: var(--dm_sans);
     font-style: var(--normal_style);
@@ -90,6 +92,9 @@
     .len_title > span{
         margin-left: 1rem;
     }
+    .comp_cont > *:last-child{
+        margin-bottom: 5.5rem;
+    } 
 }
 @media (max-width:459px){
     .dcont{
@@ -131,5 +136,7 @@
     .len_header >h4{
         margin-top: 30px;
     }
-
+    .comp_cont > *:last-child{
+        margin-bottom: 5rem;
+    } 
 }

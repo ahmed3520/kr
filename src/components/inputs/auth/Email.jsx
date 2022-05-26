@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './auth.module.css'
+import style from './css/auth.module.css'
 
 
 const Email = () => {

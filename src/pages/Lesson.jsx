@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import Uploader from '../components/dropzone'
 import Input from '../components/Lesson/Input'
 import DashNav from '../components/navbar/DashNav'
-import style from './lesson.module.css'
+import style from './css/lesson.module.css'
 const Lesson = () => {
   const [selectedFile, setSelectedFile] = useState()
   const [preview, setPreview] = useState()

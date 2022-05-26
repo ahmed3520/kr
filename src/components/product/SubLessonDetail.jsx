@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './sublesson.module.css'
+import style from './css/sublesson.module.css'
 const SubLessonDetail = ({title,data, mrb}) => {
   return (
     <div className={style.res_left}>

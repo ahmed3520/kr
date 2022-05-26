@@ -1,7 +1,7 @@
 import React from 'react'
 import Lesson from './Lesson'
 import Live from './Live'
-import style from './dash.module.css'
+import style from './css/dash.module.css'
 const DashFeed = () => {
   return (
     <div className={style.feedres} style={{width:'100%', justifyContent:'space-between'}}>
